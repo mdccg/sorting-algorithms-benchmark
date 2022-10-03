@@ -1,0 +1,14 @@
+{
+  "name": "metodos-de-ordenacao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}

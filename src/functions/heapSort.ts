@@ -1,7 +1,3 @@
-/**
- * @author <https://stackabuse.com/heap-sort-in-javascript/>
- */
-
 class MaxHeap {
   private _heap: number[] = [];
 
@@ -80,8 +76,8 @@ class MaxHeap {
 }
 
 const heapSort = (unorderedArray: number[]): number[] => {
-  var sortedArray: number[] = [];
-  var heap = new MaxHeap();
+  const sortedArray: number[] = [];
+  const heap = new MaxHeap();
 
   for (let i = 0; i < unorderedArray.length; ++i) {
     heap.insert(unorderedArray[i]);

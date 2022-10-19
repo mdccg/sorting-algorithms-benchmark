@@ -2,7 +2,7 @@
 
 ## Motivação
 
-O seguinte repositório foi criado com o objetivo de compor um [relatório acadêmico](./docs/TODO.pdf) sobre o estudo dos tempos de execução dos seguintes métodos de ordenação para [quatro vetores numéricos específicos](./src/data/):
+O seguinte repositório foi criado com o objetivo de compor um [relatório acadêmico](https://www.researchgate.net/publication/364317646_Mensuracao_de_desempenho_de_seis_metodos_de_ordenacao_utilizando_a_linguagem_de_programacao_TypeScript_Estudo_dos_tempos_de_execucao_dos_seguintes_metodos_de_ordenacao_metodo_da_bolha_metodo_de_ordena) sobre o estudo dos tempos de execução dos seguintes métodos de ordenação para [quatro vetores numéricos específicos](./src/data/):
 
 - [Método da bolha](./src/functions/bubbleSort.ts) (em inglês: _bubble sort_)
 - [Método de ordenação por seleção](./src/functions/selectionSort.ts) (em inglês: _selection sort_)
@@ -13,25 +13,6 @@ O seguinte repositório foi criado com o objetivo de compor um [relatório acad�
 
 ## Discentes
 
-<div style="flex-direction: row; justify-content: center; display: flex;">
-  <a href="https://github.com/INESEUSTAQUIO22" style="text-decoration: none; color: inherit;">
-    <figure>
-      <img style="border-radius: 50%; width: 256px;" src="https://github.com/INESEUSTAQUIO2022.png" />
-      <figcaption style="text-align: center;">Inês Eustáquio</figcaption>
-    </figure>
-  </a>
-
-  <a href="https://github.com/iury2022" style="text-decoration: none; color: inherit;">
-    <figure>
-      <img style="border-radius: 50%; width: 256px;" src="https://github.com/iury2022.png" />
-      <figcaption style="text-align: center;">Iury Feitosa</figcaption>
-    </figure>
-  </a>
-
-  <a href="https://github.com/mdccg" style="text-decoration: none; color: inherit;">
-    <figure>
-      <img style="border-radius: 50%; width: 256px;" src="https://github.com/mdccg.png" />
-      <figcaption style="text-align: center;">Matheus Comparotto</figcaption>
-    </figure>
-  </a>
-</div>
+- [Inês Ribeiro](https://github.com/INESEUSTAQUIO2022)
+- [Iury Rocha](https://github.com/iury2022)
+- Matheus Gomes

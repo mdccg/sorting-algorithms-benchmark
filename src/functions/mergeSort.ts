@@ -1,7 +1,3 @@
-/**
- * @author <https://stackabuse.com/merge-sort-in-javascript>
- */
-
 const merge = (left: number[], right: number[]): number[] => {
   let array: number[] = [];
 

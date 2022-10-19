@@ -1,8 +1,4 @@
-/**
- * @author <https://www.guru99.com/quicksort-in-javascript.html>
- */
-
-function partition(array: number[], left: number, right: number) {
+const partition = (array: number[], left: number, right: number) => {
   const pivot = array[Math.floor((right + left) / 2)];
   let i = left;
   let j = right;
@@ -13,7 +9,7 @@ function partition(array: number[], left: number, right: number) {
     }
 
     while (array[j] > pivot) {
-      j--;
+      --j;
     }
 
     if (i <= j) {
@@ -21,7 +17,7 @@ function partition(array: number[], left: number, right: number) {
       array[i] = array[j];
       array[j] = aux;
       ++i;
-      j--;
+      --j;
     }
   }
 

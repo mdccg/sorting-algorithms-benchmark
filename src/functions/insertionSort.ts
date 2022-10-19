@@ -1,6 +1,3 @@
-/**
- * @author <https://stackabuse.com/insertion-sort-in-javascript/>
- */
 const insertionSort = (array: number[]): number[] => {
   for (let i = 1; i < array.length; ++i) {
     let current = array[i];

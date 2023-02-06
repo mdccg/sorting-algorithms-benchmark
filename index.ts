@@ -7,16 +7,16 @@ import quickSort from './src/functions/quickSort';
 import heapSort from './src/functions/heapSort';
 
 const sortingMethods = [
-  // bubbleSort,
-  // selectionSort,
+  bubbleSort,
+  selectionSort,
   insertionSort,
   mergeSort,
   quickSort,
   heapSort
 ];
 
-let entry: number | undefined = 3;
-let loop: number | undefined = 3;
+let entry: number | undefined;
+let loop: number | undefined;
 
 for (const sortingMethod of sortingMethods) {
   for (let i = entry || 1; i <= 4; ++i) {
